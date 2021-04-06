@@ -38,20 +38,15 @@ fun main(){
         )
     )
 
-//    livros.imprimeCommarcadores()
-//
-//    val ordenadoAnoPublicacao: List<Livro> = livros.sorted()
-//    ordenadoAnoPublicacao.imprimeCommarcadores()
-//
-//    val ordenadoPorTitulo = livros.sortedBy { it.titulo }
-//    ordenadoPorTitulo.imprimeCommarcadores()
-//
-//    val ordenadoPorAutor = livros.sortedBy { it.autor }.imprimeCommarcadores()
+    livros.imprimeCommarcadores()
 
+    val ordenadoAnoPublicacao: List<Livro> = livros.sorted()
+    ordenadoAnoPublicacao.imprimeCommarcadores()
+
+    val ordenadoPorTitulo = livros.sortedBy { it.titulo }
+    ordenadoPorTitulo.imprimeCommarcadores()
+
+    val ordenadoPorAutor = livros.sortedBy { it.autor }.imprimeCommarcadores()
 
 
 }
-
-
-
-
